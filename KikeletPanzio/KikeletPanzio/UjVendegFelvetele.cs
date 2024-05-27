@@ -34,10 +34,11 @@ namespace KikeletPanzio
         public string UtcaHazszam { get => utcaHazszam; set => utcaHazszam = value; }
         public bool VipE { get => vipE; set => vipE = value; }
 
-        public UjVendegFelvetele(string emailCim, string nev, string anyajNeve, string szuletesiHely, DateTime szuletsiIdo, string orszag, int iranyitoszam, string varos, string utcaHazszam, bool vipE)
+        public UjVendegFelvetele(string emailCim, string nev, DateTime regisztracioDatuma, string anyajNeve, string szuletesiHely, DateTime szuletsiIdo, string orszag, int iranyitoszam, string varos, string utcaHazszam, bool vipE)
         {
             this.EmailCim = emailCim;
             this.Nev = nev;
+            this.RegisztracioDatuma = regisztracioDatuma;
             this.AnyajNeve = anyajNeve;
             this.SzuletesiHely = szuletesiHely;
             this.SzuletsiIdo = szuletsiIdo;
@@ -46,7 +47,7 @@ namespace KikeletPanzio
             this.Varos = varos;
             this.UtcaHazszam = utcaHazszam;
             this.VipE = vipE;
-            this.Azon = nev.Remove(' ') + regisztracioDatuma.rem ;
+            this.Azon = nev.Remove(' ') + regisztracioDatuma ;
         }
     }
 }

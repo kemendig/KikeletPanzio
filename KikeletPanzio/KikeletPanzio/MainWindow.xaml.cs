@@ -121,5 +121,17 @@ namespace KikeletPanzio
         {
             
         }
+
+        private void Szobafoglalas_Click(object sender, RoutedEventArgs e)
+        {
+            StackPanel ujpanel = new StackPanel();
+            //Combobox
+            Label azonositasCbxxlbl = new Label()
+            {
+                Content = "Vendég neve:",
+            };
+            ComboBox azonositasxcbx = new ComboBox();
+
+        }
     }
 }
