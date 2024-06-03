@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:KikeletPanzio"
         mc:Ignorable="d"
-        Title="MainWindow" Height="auto" Width="800">
+        Title="Kikelet Panzió" Height="auto" Width="800">
     <StackPanel Name="mainPanel">
         <Menu>
             <MenuItem Header="Új vendég felvétele" Name="UjvendegFelvetele" Click="UjvendegFelvetele_Click"/>

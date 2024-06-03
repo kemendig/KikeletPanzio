@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -20,7 +21,7 @@ namespace KikeletPanzio
     /// </summary>
     public partial class MainWindow : Window
     {
-        static List<UjVendegFelvetele> vendegekList = new List<UjVendegFelvetele>();
+        static List<UjVendegFelvetele> vendegekLista = new List<UjVendegFelvetele>();
         
         public MainWindow()
         {
@@ -33,6 +34,7 @@ namespace KikeletPanzio
             Label azonxlbl = new Label();
             azonxlbl.Content = "Azonosító:";
             TextBox azonxtbx = new TextBox();
+            azonxtbx.IsEnabled = false;
             azonxtbx.Text = " ";
             //emailcim
             Label emailxlbl = new Label();
@@ -77,13 +79,13 @@ namespace KikeletPanzio
             Button ujVendegFelveteleMentesxbtn = new Button() {
                 Content = "Mentés"
             };
-            ujVendegFelveteleMentesxbtn.Click += ujVendegFelvetele_Click;
+            ujVendegFelveteleMentesxbtn.Click += ujVendegFelveteleMentes_Click;
             //ujVendegFelveteleMentesxbtn.Content = "Mentés";
 
             mainPanel.Children.Add(ujpanel);
             //Azonosito
-            ujpanel.Children.Add(azonxlbl);
-            ujpanel.Children.Add(azonxtbx);
+            //ujpanel.Children.Add(azonxlbl);
+            //ujpanel.Children.Add(azonxtbx);
             //Emailcim
             ujpanel.Children.Add(emailxlbl);
             ujpanel.Children.Add(emailxtbx);
@@ -117,7 +119,7 @@ namespace KikeletPanzio
             ujpanel.Children.Add(ujVendegFelveteleMentesxbtn);
         }
 
-        private void ujVendegFelvetele_Click(object sender, RoutedEventArgs e)
+        private void ujVendegFelveteleMentes_Click(object sender, RoutedEventArgs e)
         {
             
         }
