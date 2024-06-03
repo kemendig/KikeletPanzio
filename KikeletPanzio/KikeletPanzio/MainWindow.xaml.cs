@@ -22,70 +22,92 @@ namespace KikeletPanzio
     public partial class MainWindow : Window
     {
         static List<UjVendegFelvetele> vendegekLista = new List<UjVendegFelvetele>();
+        // Ellenőrzi, hogy van e már hozzáadva panel
+        private bool isUjpanelAdded = false;
         
         public MainWindow()
         {
             InitializeComponent();
         }
-        private void UjvendegFelvetele_Click(object sender, RoutedEventArgs e)
+        #region ujvendegfelvetele
+        internal TextBox azonxtbx;
+        internal TextBox emailxtbx;
+        internal TextBox nevxtbx;
+        internal TextBox anyjaNevextbx;
+        internal TextBox szuletesiHelyxtbx;
+        internal TextBox szuletesiIdoxtbx;
+        internal TextBox orszagxtbx;
+        internal TextBox iranyitoszamxtbx;
+        internal TextBox varosxtbx;
+        internal TextBox utcaHazszamxtbx;
+        internal CheckBox vipExchbx;
+        internal Button ujVendegFelveteleMentesxbtn;
+        #endregion
+        #region szobafoglalas
+        internal ComboBox azonositasxcbx;
+        internal TextBox hanyforextbx;
+        internal DatePicker mikortolxdp;
+        internal DatePicker meddigxdp;
+        #endregion
+        internal void UjvendegFelvetele_Click(object sender, RoutedEventArgs e)
         {
-            StackPanel ujpanel = new StackPanel();
+            // ha a panel már létezik, ne csináljon semmit
+
+            ujpanel.Children.Clear();
             //Azonosító
             Label azonxlbl = new Label();
             azonxlbl.Content = "Azonosító:";
-            TextBox azonxtbx = new TextBox();
+            azonxtbx = new TextBox();
             azonxtbx.IsEnabled = false;
             azonxtbx.Text = " ";
             //emailcim
             Label emailxlbl = new Label();
             emailxlbl.Content = "Email cím:";
-            TextBox emailxtbx = new TextBox();
+            emailxtbx = new TextBox();
             //nev
             Label nevxlbl = new Label();
             nevxlbl.Content = "Név:";
-            TextBox nevxtbx = new TextBox();
+            nevxtbx = new TextBox();
             //Anyja neve
             Label anyjaNevexlbl = new Label();
             anyjaNevexlbl.Content = "Anyja neve:";
-            TextBox anyjaNevextbx = new TextBox();
+            anyjaNevextbx = new TextBox();
             //születési hely
             Label szuletesiHelyxlbl = new Label();
             szuletesiHelyxlbl.Content = "Születési hely:";
-            TextBox szuletesiHelyxtbx = new TextBox();
+            szuletesiHelyxtbx = new TextBox();
             //Születési idő
             Label szuletesiIdoxlbl = new Label();
             szuletesiIdoxlbl.Content = "Születési idő";
-            TextBox szuletesiIdoxtbx = new TextBox();
+            szuletesiIdoxtbx = new TextBox();
             //ország
             Label orszagxlbl = new Label();
             orszagxlbl.Content = "Ország:";
-            TextBox orszagxtbx = new TextBox();
+            orszagxtbx = new TextBox();
             //irányítószám
             Label iranyitoszamxlbl = new Label();
             iranyitoszamxlbl.Content = "Irányítószám:";
-            TextBox iranyitoszamxtbx = new TextBox();
+            iranyitoszamxtbx = new TextBox();
             //város
             Label varosxlbl = new Label();
             varosxlbl.Content = "Város:";
-            TextBox varosxtbx = new TextBox();
+            varosxtbx = new TextBox();
             //utca házszám
             Label utcaHazszamxlbl = new Label();
             utcaHazszamxlbl.Content = "Utca, Házszám:";
-            TextBox utcaHazszamxtbx = new TextBox();
+            utcaHazszamxtbx = new TextBox();
             //Vipe
-            CheckBox vipExchbx = new CheckBox();
+            vipExchbx = new CheckBox();
             vipExchbx.Content = "Vip-e?";
             //Mentés
-            Button ujVendegFelveteleMentesxbtn = new Button() {
+            ujVendegFelveteleMentesxbtn = new Button() {
                 Content = "Mentés"
             };
             ujVendegFelveteleMentesxbtn.Click += ujVendegFelveteleMentes_Click;
             //ujVendegFelveteleMentesxbtn.Content = "Mentés";
-
-            mainPanel.Children.Add(ujpanel);
             //Azonosito
-            //ujpanel.Children.Add(azonxlbl);
-            //ujpanel.Children.Add(azonxtbx);
+                //ujpanel.Children.Add(azonxlbl);
+                //ujpanel.Children.Add(azonxtbx);
             //Emailcim
             ujpanel.Children.Add(emailxlbl);
             ujpanel.Children.Add(emailxtbx);
@@ -117,23 +139,77 @@ namespace KikeletPanzio
             ujpanel.Children.Add(vipExchbx);
             // mentés
             ujpanel.Children.Add(ujVendegFelveteleMentesxbtn);
+
+            // Panel hozzáadva
+            isUjpanelAdded = true; 
         }
 
         private void ujVendegFelveteleMentes_Click(object sender, RoutedEventArgs e)
-        {
-            
+        { 
+
+            UjVendegFelvetele ujVendegFelvetele = new UjVendegFelvetele(emailxtbx.Text, nevxtbx.Text, DateTime.Now, anyjaNevextbx.Text, szuletesiHelyxtbx.Text, DateTime.Parse(szuletesiIdoxtbx.Text), orszagxtbx.Text, int.Parse(iranyitoszamxtbx.Text), varosxtbx.Text, utcaHazszamxtbx.Text, (bool)vipExchbx.IsChecked);
+
+            // Add the new guest to the list
+            vendegekLista.Add(ujVendegFelvetele);
+
+            // Optionally, clear the input fields or provide feedback to the user
+            MessageBox.Show("A vendég adatai sikeresen mentve.");
         }
 
         private void Szobafoglalas_Click(object sender, RoutedEventArgs e)
         {
-            StackPanel ujpanel = new StackPanel();
+            ujpanel.Children.Clear();
             //Combobox
             Label azonositasCbxxlbl = new Label()
             {
                 Content = "Vendég neve:",
             };
-            ComboBox azonositasxcbx = new ComboBox();
+            azonositasxcbx = new ComboBox();
+            //textbox
+            Label hanyforexlbl = new Label()
+            {
+                Content = "Hány fő:",
+            };
+            hanyforextbx = new TextBox();
+            //mikoritol datepicker
+            Label mikortolxlbl = new Label()
+            {
+                Content = "Érkezés időpontja: "
+            };
+            mikortolxdp = new DatePicker();
+            //meddig datepicker
+            Label meddigxlbl = new Label()
+            {
+                Content = "Távozás időpontja: "
+            };
+            meddigxdp = new DatePicker();
 
+            Button foglalas = new Button()
+            {
+                Content = "Foglalás"
+            };
+            foglalas.Click += Foglalas_Click();
+
+            ujpanel.Children.Add(azonositasCbxxlbl);
+            ujpanel.Children.Add(azonositasxcbx);
+
+            ujpanel.Children.Add(hanyforexlbl);
+            ujpanel.Children.Add(hanyforextbx);
+
+            ujpanel.Children.Add(mikortolxlbl);
+            ujpanel.Children.Add(mikortolxdp);
+
+            ujpanel.Children.Add(meddigxlbl);
+            ujpanel.Children.Add(meddigxdp);
+
+            ujpanel.Children.Add(foglalas);
+
+            isUjpanelAdded = true;
+        }
+
+        private void Foglalas_Click()
+        {
+            
         }
     }
 }

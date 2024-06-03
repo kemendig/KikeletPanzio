@@ -11,5 +11,6 @@
             <MenuItem Header="Új vendég felvétele" Name="UjvendegFelvetele" Click="UjvendegFelvetele_Click"/>
             <MenuItem Header="Szobafoglalás" Name="Szobafoglalas" Click="Szobafoglalas_Click"/>
         </Menu>
+        <StackPanel x:Name="ujpanel"/>
     </StackPanel>
 </Window>

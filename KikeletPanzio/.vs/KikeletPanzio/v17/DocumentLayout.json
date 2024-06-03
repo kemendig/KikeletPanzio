@@ -1,18 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\kgret\\OneDrive\\Asztali g\u00E9p\\KikeletPanzio\\KikeletPanzio\\",
+  "WorkspaceRootPath": "C:\\Users\\kgr\u00E9ta\\Desktop\\KikeletPanzio\\KikeletPanzio\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{97FC4F46-DD7A-4023-AA86-28027DEB8C92}|KikeletPanzio\\KikeletPanzio.csproj|C:\\Users\\kgret\\OneDrive\\Asztali g\u00E9p\\KikeletPanzio\\KikeletPanzio\\kikeletpanzio\\ujvendegfelvetele.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97FC4F46-DD7A-4023-AA86-28027DEB8C92}|KikeletPanzio\\KikeletPanzio.csproj|solutionrelative:kikeletpanzio\\ujvendegfelvetele.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97FC4F46-DD7A-4023-AA86-28027DEB8C92}|KikeletPanzio\\KikeletPanzio.csproj|c:\\users\\kgret\\onedrive\\asztali g\u00E9p\\kikeletpanzio\\kikeletpanzio\\kikeletpanzio\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{97FC4F46-DD7A-4023-AA86-28027DEB8C92}|KikeletPanzio\\KikeletPanzio.csproj|C:\\Users\\kgr\u00E9ta\\Desktop\\KikeletPanzio\\KikeletPanzio\\kikeletpanzio\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{97FC4F46-DD7A-4023-AA86-28027DEB8C92}|KikeletPanzio\\KikeletPanzio.csproj|solutionrelative:kikeletpanzio\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97FC4F46-DD7A-4023-AA86-28027DEB8C92}|KikeletPanzio\\KikeletPanzio.csproj|C:\\Users\\kgret\\OneDrive\\Asztali g\u00E9p\\KikeletPanzio\\KikeletPanzio\\kikeletpanzio\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{97FC4F46-DD7A-4023-AA86-28027DEB8C92}|KikeletPanzio\\KikeletPanzio.csproj|C:\\Users\\kgr\u00E9ta\\Desktop\\KikeletPanzio\\KikeletPanzio\\kikeletpanzio\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{97FC4F46-DD7A-4023-AA86-28027DEB8C92}|KikeletPanzio\\KikeletPanzio.csproj|solutionrelative:kikeletpanzio\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FC4F46-DD7A-4023-AA86-28027DEB8C92}|KikeletPanzio\\KikeletPanzio.csproj|c:\\users\\kgr\u00E9ta\\desktop\\kikeletpanzio\\kikeletpanzio\\kikeletpanzio\\ujvendegfelvetele.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FC4F46-DD7A-4023-AA86-28027DEB8C92}|KikeletPanzio\\KikeletPanzio.csproj|solutionrelative:kikeletpanzio\\ujvendegfelvetele.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,28 +22,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "UjVendegFelvetele.cs",
-              "DocumentMoniker": "C:\\Users\\kgret\\OneDrive\\Asztali g\u00E9p\\KikeletPanzio\\KikeletPanzio\\KikeletPanzio\\UjVendegFelvetele.cs",
+              "DocumentMoniker": "C:\\Users\\kgr\u00E9ta\\Desktop\\KikeletPanzio\\KikeletPanzio\\KikeletPanzio\\UjVendegFelvetele.cs",
               "RelativeDocumentMoniker": "KikeletPanzio\\UjVendegFelvetele.cs",
-              "ToolTip": "C:\\Users\\kgret\\OneDrive\\Asztali g\u00E9p\\KikeletPanzio\\KikeletPanzio\\KikeletPanzio\\UjVendegFelvetele.cs",
+              "ToolTip": "C:\\Users\\kgr\u00E9ta\\Desktop\\KikeletPanzio\\KikeletPanzio\\KikeletPanzio\\UjVendegFelvetele.cs",
               "RelativeToolTip": "KikeletPanzio\\UjVendegFelvetele.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAA0wDEAAAAMAAAA",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAzwCgAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-24T08:13:25.101Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\kgret\\OneDrive\\Asztali g\u00E9p\\KikeletPanzio\\KikeletPanzio\\KikeletPanzio\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\kgr\u00E9ta\\Desktop\\KikeletPanzio\\KikeletPanzio\\KikeletPanzio\\MainWindow.xaml",
               "RelativeDocumentMoniker": "KikeletPanzio\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\kgret\\OneDrive\\Asztali g\u00E9p\\KikeletPanzio\\KikeletPanzio\\KikeletPanzio\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\kgr\u00E9ta\\Desktop\\KikeletPanzio\\KikeletPanzio\\KikeletPanzio\\MainWindow.xaml",
               "RelativeToolTip": "KikeletPanzio\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-05-24T06:50:13.786Z",
@@ -51,13 +51,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\kgret\\OneDrive\\Asztali g\u00E9p\\KikeletPanzio\\KikeletPanzio\\KikeletPanzio\\MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\kgr\u00E9ta\\Desktop\\KikeletPanzio\\KikeletPanzio\\KikeletPanzio\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "KikeletPanzio\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\kgret\\OneDrive\\Asztali g\u00E9p\\KikeletPanzio\\KikeletPanzio\\KikeletPanzio\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\kgr\u00E9ta\\Desktop\\KikeletPanzio\\KikeletPanzio\\KikeletPanzio\\MainWindow.xaml.cs",
               "RelativeToolTip": "KikeletPanzio\\MainWindow.xaml.cs",
-              "ViewState": "AQIAAEYAAAAAAAAAAAAkwFcAAAAOAAAA",
+              "ViewState": "AQIAAJ8AAAAAAAAAAAAUwNMAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-24T06:50:13.28Z",
               "EditorCaption": ""
