@@ -1,0 +1,15 @@
+C:\Users\kgret\OneDrive\Asztali gép\asztali\k_panzio\k_panzio\bin\Debug\k_panzio.exe.config
+C:\Users\kgret\OneDrive\Asztali gép\asztali\k_panzio\k_panzio\bin\Debug\k_panzio.exe
+C:\Users\kgret\OneDrive\Asztali gép\asztali\k_panzio\k_panzio\bin\Debug\k_panzio.pdb
+C:\Users\kgret\OneDrive\Asztali gép\asztali\k_panzio\k_panzio\obj\Debug\k_panzio.csproj.AssemblyReference.cache
+C:\Users\kgret\OneDrive\Asztali gép\asztali\k_panzio\k_panzio\obj\Debug\MainWindow.g.cs
+C:\Users\kgret\OneDrive\Asztali gép\asztali\k_panzio\k_panzio\obj\Debug\App.g.cs
+C:\Users\kgret\OneDrive\Asztali gép\asztali\k_panzio\k_panzio\obj\Debug\k_panzio_MarkupCompile.cache
+C:\Users\kgret\OneDrive\Asztali gép\asztali\k_panzio\k_panzio\obj\Debug\k_panzio_MarkupCompile.lref
+C:\Users\kgret\OneDrive\Asztali gép\asztali\k_panzio\k_panzio\obj\Debug\MainWindow.baml
+C:\Users\kgret\OneDrive\Asztali gép\asztali\k_panzio\k_panzio\obj\Debug\k_panzio.g.resources
+C:\Users\kgret\OneDrive\Asztali gép\asztali\k_panzio\k_panzio\obj\Debug\k_panzio.Properties.Resources.resources
+C:\Users\kgret\OneDrive\Asztali gép\asztali\k_panzio\k_panzio\obj\Debug\k_panzio.csproj.GenerateResource.cache
+C:\Users\kgret\OneDrive\Asztali gép\asztali\k_panzio\k_panzio\obj\Debug\k_panzio.csproj.CoreCompileInputs.cache
+C:\Users\kgret\OneDrive\Asztali gép\asztali\k_panzio\k_panzio\obj\Debug\k_panzio.exe
+C:\Users\kgret\OneDrive\Asztali gép\asztali\k_panzio\k_panzio\obj\Debug\k_panzio.pdb
